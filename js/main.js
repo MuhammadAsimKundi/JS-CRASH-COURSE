@@ -187,3 +187,16 @@ let temp = Thermos.temperature; //getters and setters are accessed similar to pr
 Thermos.temperature = 55;
 temp = Thermos.temperature;
 console.log(temp)
+
+
+
+
+//IMPORT AND EXPORT IN JS
+//import
+
+import { capitalizeString } from "./string_function";
+const cap = capitalizeString("hello!");
+console.log(cap)
+
+
+//use export to reuse a block
